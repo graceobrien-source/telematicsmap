@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Inter", "Inter Fallback", system-ui, sans-serif;
+  --font-mono: "Fira Code", "Fira Code Fallback", monospace;
+  
+  --color-background: #f1f3f4;
+  --color-foreground: #111827;
+  --color-card: #ffffff;
+  --color-card-foreground: #111827;
+  --color-primary: #D99A2B;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f3f4f6;
+  --color-secondary-foreground: #111827;
+  --color-muted: #f9fafb;
+  --color-muted-foreground: #6b7280;
+  --color-accent: #B91C1C;
+  --color-accent-foreground: #ffffff;
+  --color-border: #e5e7eb;
+  --color-ring: #D99A2B;
+  
+  --radius: 0.5rem;
+}
